@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   font-family:"Lato", sans-serif;
+   font-weight: bolder;
+
+}
+.outter-box{
+    width: 100vw;
+    height: 100vh;
+    background:linear-gradient(to top left, #cee1e1, #65a8eb);
+}
+
+.inner-box{
+    width: 400px;
+    /* height: 500px; */
+    margin:0px auto;
+     position:relative;
+     top: 20%;
+   padding: 20px 40px;
+   background:linear-gradient(to top left, rgba(250, 252, 253, 0.699),);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 2.5px 2.5px 5px;
+    z-index: 2; 
+    
+}
+
+.signup-header h1{
+    font-size: 2.5rem;
+    color: #131313;
+}
+.signup-header p{
+    font: 1rem;
+    color: #555;
+}
+ .signup-body{
+    margin: 20px 0px;
+}
+.signup-body p{
+    margin: 10px 0;
+}
+.signup-body p label{
+    display: block;
+    font-weight: bold;
+}
+
+.signup-body p input{
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #cccc;
+    border-radius: 7px;
+    font-size: 1rem;
+    margin-top: 7px
+}
+
+#submit-account{
+    border:none;
+    background-color: #3097dc;
+    color: rgb(255, 251, 251);
+    cursor:pointer;
+}
+
+#submit-account:hover{
+   background-color: #0eb0e6;
+}
+
+.signup-footer p{
+    color: #3f3e3e;
+    text-align: center;
+}
+
+.signup-footer p a{
+    text-decoration: none;
+    margin-left: 5px;
+    color: white;
+    background-color: #3097dc;
+    border-radius: 5px;
+    padding: 2px 7px;
+    /* padding: 2px 71px; */
+    /* display: block; */
+    /* text-align:end; */
+}
+
+.signup-footer p a:hover{
+    background-color:#0eb0e6;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius:100px ;
+    background: linear-gradient(to top right ,#ffffff33,#ffffffff);
+    position:absolute
+}
+
+.cl1{
+    top: 50px;
+    left: 50px;
+}
+
+.cl2{
+    bottom: 50px;
+    right: 50px;
+} 
+
+
+
+@media  screen and (max-width:460px) {
+    .inner-box{
+        width: 350px;
+        height: 500px;
+        margin:0px auto;
+         position:relative;
+         top: 20%;
+       padding: 20px 40px;
+       background:linear-gradient(to top left, rgba(250, 252, 253, 0.699),);
+        backdrop-filter: blur(10px);
+        border-radius: 20px;
+        box-shadow: 2.5px 2.5px 5px;
+        z-index: 2; 
+        
+    }
+}
