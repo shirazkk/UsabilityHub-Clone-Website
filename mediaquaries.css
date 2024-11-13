@@ -1,0 +1,191 @@
+/* media-quaries */
+
+@media (max-width: 1022px) {
+
+  .pages {
+    display: none;
+  }
+
+  .humburger-icon {
+    display: block;
+  }
+  #close-icon {
+    display: block;
+  }
+  .hamburger {
+    display: flex;
+  }
+}
+
+
+
+@media screen and (max-width: 1129px) {
+  header {
+    padding: 0px 20px 0;
+    height: auto;
+  }
+
+  .flex2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
+  .header-sec {
+    gap: 50px;
+  }
+
+  .header-left {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .header-image img {
+    width: 500px;
+  }
+
+  .header-left h1 {
+    text-align: center;
+  }
+  .header-left p {
+    text-align: center;
+  }
+  .get-started-button {
+    margin: 20px 0;
+    padding: 16px 30px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  /* third-section */
+
+  .third-section-box {
+    margin-top: 20px;
+    gap: 30px;
+    flex-direction: column;
+  }
+  .third-section-left-image img {
+    margin-top: 30px;
+    width: 567px;
+  }
+  .third-section-right-text {
+    padding-block: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+  }
+  .third-section-right-text h3 {
+    font-size: 24px;
+  }
+
+  .third-section-right-text p {
+    text-align: center;
+    color: #577592;
+    font-size: 19px;
+    line-height: 28px;
+  }
+}
+
+@media screen and (max-width: 1223px) {
+  .header-sec {
+    padding-inline: 5px;
+  }
+}
+
+@media screen and (max-width: 589px) {
+  .header-left {
+    width: 100%;
+  }
+
+  .third-section-right-text {
+    width: 100%;
+  }
+}
+
+/* second-section */
+
+@media (max-width: 1024px) {
+  .features-box {
+    width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .features-box {
+    width: 100%;
+  }
+
+  .second-section-header h2 {
+    font-size: 2rem;
+  }
+}
+
+/* footer */
+
+@media (max-width: 768px) {
+  .top-footor {
+    height: auto;
+  }
+
+  .top-footor-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .logo-of-company {
+    padding-top: 20px;
+    width: 200px;
+  }
+
+  .colunm-links {
+    top: 40px;
+    margin-bottom: 20px;
+  }
+
+  .colunm-links h4 {
+    margin-bottom: 10px;
+  }
+
+  .bottom-footer {
+    padding: 10px;
+  }
+
+  .sub-footer-container {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .sub-footer-container a {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-of-company {
+    width: 150px;
+  }
+
+  .colunm-links a {
+    line-height: 60px;
+  }
+
+  .sub-footer-container {
+    gap: 10px;
+  }
+}
+
+
+@media screen and (max-width: 493px) { 
+.main-nav {
+    
+    padding: 20px 20px 20px 10px;
+  }
+}

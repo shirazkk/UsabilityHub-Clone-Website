@@ -2,15 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/x-icon" href="assist/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="assist/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>UsabilityHub-Clone</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="signup-form/index.html">
-    <link rel="stylesheet" href="login-form/index.html">
+    <link rel="stylesheet" href="humburger_menu.css" />
+    <link rel="stylesheet" href="mediaquaries.css" />
+    <link rel="stylesheet" href="signup-form/index.html" />
+    <link rel="stylesheet" href="login-form/index.html" />
+    <script src="script.js"></script>
   </head>
   <body>
-
     <div class="nav-bar1">
       <div class="container">
         <label for="$">
@@ -20,26 +22,90 @@
         </label>
       </div>
     </div>
-    
-    <nav>
+
+    <nav class="nav">
       <div class="container main-nav flex">
         <a href="#" class="company-logo">
           <img src="assist/asset 0.png" alt="company logo" />
         </a>
         <div class="pages">
           <ul class="flex">
-            <li><a href="#" class="hover-links hover-effect">Products</a></li>
-            <li><a href="#" class="hover-links hover-effect">Customers</a></li>
-            <li><a href="#" class="hover-links hover-effect">Pricing</a></li>
-            <li><a href="#" class="hover-links hover-effect">Resources</a></li>
-            <li><a href="/login-form/index.html"  target="_blank" class="hover-links button button1">Sign in</a></li>
-            <li><a href="/signup-form/index.html" target="_blank" class="hover-links button button2">Sign up</a></li>
+            <li>
+              <a href="#products" class="hover-links hover-effect">Products</a>
+            </li>
+            <li>
+              <a href="#customers" class="hover-links hover-effect"
+                >Customers</a
+              >
+            </li>
+            <li>
+              <a href="#pricing" class="hover-links hover-effect">Pricing</a>
+            </li>
+            <li>
+              <a href="#resources" class="hover-links hover-effect"
+                >Resources</a
+              >
+            </li>
+            <li>
+              <a
+                href="/login-form/index.html"
+                target="_blank"
+                class="hover-links button button1"
+                >Sign in</a
+              >
+            </li>
+            <li>
+              <a
+                href="/signup-form/index.html"
+                target="_blank"
+                class="hover-links button button2"
+                >Sign up</a
+              >
+            </li>
           </ul>
+        </div>
+
+        <div id="hamburger-icon" class="icons humburger-icon">
+          <i class="fa-solid fa-bars"></i>
         </div>
       </div>
     </nav>
+
+    <div id="hamburger-menu" class="hamburger">
+      <div id="close-icon" class="icons hidden">
+        <i class="fa-solid fa-xmark"></i>
+      </div>
+      <ul>
+        <li>
+          <a href="#products" class="hover-links hover-effect">Products</a>
+        </li>
+        <li>
+          <a href="#customers" class="hover-links hover-effect">Customers</a>
+        </li>
+        <li><a href="#pricing" class="hover-links hover-effect">Pricing</a></li>
+        <li>
+          <a href="#resources" class="hover-links hover-effect">Resources</a>
+        </li>
+      </ul>
+      <div class="hum-btns flex">
+        <a
+          href="/login-form/index.html"
+          target="_blank"
+          class="hover-links button button1"
+          >Sign in</a
+        >
+
+        <a
+          href="/signup-form/index.html"
+          target="_blank"
+          class="hover-links button button2"
+          >Sign up</a
+        >
+      </div>
+    </div>
+
     <header>
-      <div class="container header-sec flex">
+      <div class="container header-sec flex flex2">
         <div class="header-left">
           <h1>Design Confidently</h1>
           <p>
@@ -55,7 +121,8 @@
         </div>
       </div>
     </header>
-    <section class="first-section">
+
+    <section id="products" class="first-section">
       <div class="container">
         <div class="comapanies-header">
           The world’s best companies rely on UsabilityHub to make better design
@@ -73,11 +140,13 @@
       </div>
     </section>
 
-    <section class="second-section">
+    <section id="customers" class="second-section">
       <div class="container">
         <div class="second-section-header">
           <h2>Your user research Swiss Army knife</h2>
-          <a href="#" class="button button1">See all features <i class="fa-solid fa-arrow-right"></i></a>
+          <a href="#" class="button button1"
+            >See all features <i class="fa-solid fa-arrow-right"></i
+          ></a>
         </div>
 
         <div class="section-features flex">
@@ -85,43 +154,55 @@
             <img src="assist/asset 9.svg" alt="" />
             <h3>Card sorting</h3>
             <p>Discover how people group and label information</p>
-            <a href="#" class="button button1">Learn more <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#" class="button button1"
+              >Learn more <i class="fa-solid fa-arrow-right"></i
+            ></a>
           </div>
           <div class="features-box flex">
             <img src="assist/asset 10.svg" alt="" />
             <h3>Prototype tests</h3>
             <p>Discover how people navigate your Figma prototypes.</p>
-            <a href="#" class="button button1">Learn more <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#" class="button button1"
+              >Learn more <i class="fa-solid fa-arrow-right"></i
+            ></a>
           </div>
           <div class="features-box flex">
             <img src="assist/asset 11.svg" alt="" />
             <h3>First click tests</h3>
             <p>Test interaction with first click and navigation tests.</p>
-            <a href="#" class="button button1">Learn more <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#" class="button button1"
+              >Learn more <i class="fa-solid fa-arrow-right"></i
+            ></a>
           </div>
           <div class="features-box flex">
             <img src="assist/asset 12.svg" alt="" />
             <h3>Design surveys</h3>
             <p>Get feedback on images, videos or audio files.</p>
-            <a href="#" class="button button1">Learn more <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#" class="button button1"
+              >Learn more <i class="fa-solid fa-arrow-right"></i
+            ></a>
           </div>
           <div class="features-box flex">
             <img src="assist/asset 13.svg" alt="" />
             <h3>Preference tests</h3>
             <p>Find out which designs users prefer and why.</p>
-            <a href="#" class="button button1">Learn more <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#" class="button button1"
+              >Learn more <i class="fa-solid fa-arrow-right"></i
+            ></a>
           </div>
           <div class="features-box flex">
             <img src="assist/asset 14.svg" alt="" />
             <h3>Five second tests</h3>
             <p>Test comprehensibility by measuring first impressions.</p>
-            <a href="#" class="button button1">Learn more <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#" class="button button1"
+              >Learn more <i class="fa-solid fa-arrow-right"></i
+            ></a>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="third-section">
+    <section id="pricing" class="third-section">
       <div class="container flex third-section-box">
         <div class="third-section-left-image">
           <img src="assist/asset 15.png" alt="" />
@@ -137,7 +218,7 @@
       </div>
     </section>
 
-    <section class="third-section">
+    <section id="pricing" class="third-section">
       <div class="container flex third-section-box revert-third-section">
         <div class="third-section-left-image">
           <img src="assist/asset 16.png" alt="" />
@@ -154,7 +235,7 @@
       </div>
     </section>
 
-    <section class="third-section">
+    <section id="pricing" class="third-section">
       <div class="container flex third-section-box">
         <div class="third-section-left-image">
           <img src="assist/asset 17.png" alt="" />
@@ -170,11 +251,13 @@
       </div>
     </section>
 
-    <section class="fourth-section">
+    <section id="resources" class="fourth-section">
       <div class="container">
         <div class="fourth-section-header">
           <h2>One platform, endless possibilities</h2>
-          <a href="#" class="button button1">See more examples <i class="fa-solid fa-arrow-right"></i></a>
+          <a href="#" class="button button1"
+            >See more examples <i class="fa-solid fa-arrow-right"></i
+          ></a>
         </div>
         <div class="fourth-section-images flex">
           <a
@@ -210,9 +293,11 @@
           <a
             href=""
             class="examples-images"
-            style=" background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.8)),
-                url(assist/asset\ 36.jpeg);"
-          />
+            style="
+              background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.8)),
+                url(assist/asset\ 36.jpeg);
+            "
+          >
             <h2>Do visitor understand what a page is about</h2>
           </a>
         </div>
@@ -223,7 +308,7 @@
       <div class="container flex cta-section-container">
         <h2>Start testing today</h2>
         <p>Take the guesswork out of design decisions</p>
-        <a href="#" class="button button2">Get Started</a>
+        <a href="#" class="button button2 btn-fifth">Get Started</a>
       </div>
     </section>
 
